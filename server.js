@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 const PORT = process.env.PORT || 3000;
-const API_KEY = process.env.ANTHROPIC_KEY;
+const API_KEY = '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';
 
 const server = http.createServer((req, res) => {
   const cors = {
